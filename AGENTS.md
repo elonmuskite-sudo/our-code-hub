@@ -1,4 +1,17 @@
+<<<<<<< HEAD
 # Architecture rules
 - Keep existing authentication and Appwrite message transport during chat UI changes; replacing the identity or storage provider would invalidate existing conversations.
 - Encode reactions and reply metadata with the versioned chat protocol in existing message fields; this preserves compatibility without requiring unprovisioned database columns.
 - Centralize chat controls in ChatButton and chat presentation effects in global semantic-token CSS; this keeps interaction and theme behavior consistent.
+=======
+<!-- LOVABLE:BEGIN -->
+> [!IMPORTANT]
+> This project is connected to [Lovable](https://lovable.dev). Avoid rewriting
+> published git history — force pushing, or rebasing/amending/squashing commits
+> that are already pushed — as it rewrites history on Lovable's side and the
+> user will likely lose their project history.
+>
+> Commits you push to the connected branch sync back to Lovable and show up in
+> the editor, so keep the branch in a working state.
+<!-- LOVABLE:END -->
+>>>>>>> b431250dfd048fcd0636eac8fa97f159b86a22f0
