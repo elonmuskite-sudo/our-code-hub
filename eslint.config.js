@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import js from '@eslint/js'
 import globals from 'globals'
 import react from 'eslint-plugin-react'
@@ -44,7 +43,6 @@ export default [
     },
   },
 ]
-=======
 import js from "@eslint/js";
 import eslintPluginPrettier from "eslint-plugin-prettier/recommended";
 import globals from "globals";
@@ -85,4 +83,3 @@ export default tseslint.config(
   },
   eslintPluginPrettier,
 );
->>>>>>> b431250dfd048fcd0636eac8fa97f159b86a22f0
